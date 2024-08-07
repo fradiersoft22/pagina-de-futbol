@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Torneo Veredal Urama</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <link rel="stylesheet" href="css/goleadores.css" />
+    <link rel="stylesheet" href="css/equipos.css" />
+    <script defer src="js/app.js"></script>
+    <script src="equipos.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img
+            height="50"
+            width="50"
+            src="./imgsFutbol/logo1.jpg"
+            alt="programador"
+          />
+          <div class="logotype">
+            Torneo Veredal <br />
+            Urama 2024
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected"> Acerca de</a></li>
+          <li><a href="#experience">Tabla de posiciones</a></li>
+          <li><a href="#skills">Calendario</a></li>
+          <li><a href="#goleadores">Goleadores</a></li>
+          <li><a href="#equipos">Equipos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">Torneo de Fútbol</h1>
+          <p class="profile-details">
+            ¡Bienvenidos al Torneo Veredal de Fútbol! Un evento diseñado para
+            unir a las diferentes veredas a través de la pasión por el deporte.
+            Este torneo no solo es una oportunidad para disfrutar del fútbol,
+            sino también para fortalecer los lazos entre comunidades, fomentar
+            el trabajo en equipo y celebrar el espíritu deportivo.
+          </p>
+        </div>
+        <span class="profile-img-section">
+          <img
+            class="profile-img"
+            src="./imgsFutbol/acercaDe.jpg"
+            alt="programador"
+          />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+    <section class="experiences" id="experience">
+      <img src="img/wave.svg" alt="división" class="wave" />
+      <div class="experiences-body">
+        <div class="tabla-posiciones">
+          <h1>Tabla de Posiciones</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Club de Futbol</th>
+                <th>PJ</th>
+                <th>GF</th>
+                <th>GC</th>
+                <th>PTS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="equipo">
+                    <span class="numero">1</span>
+                    <span class="nombre-equipo">Dabeiba</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>25</td>
+                <td>15</td>
+                <td>30</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="equipo">
+                    <span class="numero">2</span>
+                    <span class="nombre-equipo">El Alto</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>20</td>
+                <td>18</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="equipo">
+                    <span class="numero">3</span>
+                    <span class="nombre-equipo">Palo Negro</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>22</td>
+                <td>20</td>
+                <td>21</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="equipo">
+                    <span class="numero">4</span>
+                    <span class="nombre-equipo">Camparrucia</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>18</td>
+                <td>22</td>
+                <td>21</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="equipo">
+                    <span class="numero">5</span>
+                    <span class="nombre-equipo">Guadualito</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>15</td>
+                <td>25</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="equipo">
+                    <span class="numero">6</span>
+                    <span class="nombre-equipo">Betania</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>12</td>
+                <td>28</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="equipo">
+                    <span class="numero">7</span>
+                    <span class="nombre-equipo">Cruces</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>10</td>
+                <td>30</td>
+                <td>11</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="equipo">
+                    <span class="numero">8</span>
+                    <span class="nombre-equipo">Charrascal</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>8</td>
+                <td>32</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="equipo">
+                    <span class="numero">9</span>
+                    <span class="nombre-equipo">Armenia</span>
+                  </div>
+                </td>
+                <td>10</td>
+                <td>5</td>
+                <td>35</td>
+                <td>4</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="skills" id="skills">
+        <div class="calendario-partidos">
+          <h1>Calendario de Partidos</h1>
+
+          <div class="jornada">
+            <h2>Jornada 12 - 04 de agosto</h2>
+            <div class="partido">
+              <span>El Alto vs Dabeiba</span>
+              <span class="hora">10:00 AM</span>
+            </div>
+            <div class="partido">
+              <span>Armenia vs Camparrucia</span>
+              <span class="hora">12:00 PM</span>
+            </div>
+            <div class="partido">
+              <span>cruces vs Betania</span>
+              <span class="hora">2:00 PM</span>
+            </div>
+            <div class="partido">
+              <span>Guadualito vs Palo Negro</span>
+              <span class="hora">3:30 PM</span>
+            </div>
+          </div>
+
+          <div class="jornada">
+            <h2>Jornada 13 - 11 de agosto</h2>
+            <div class="partido">
+              <span>Guadualito vs Camparrucia</span>
+              <span class="hora">10:00 AM</span>
+            </div>
+            <div class="partido">
+              <span>El Alto vs Armenia</span>
+              <span class="hora">12:00 PM</span>
+            </div>
+            <div class="partido">
+              <span>Cruces vs Palo Negro</span>
+              <span class="hora">2:00 PM</span>
+            </div>
+            <div class="partido">
+              <span>Charrascal vs Dabeiba</span>
+              <span class="hora">3:30 PM</span>
+            </div>
+          </div>
+        </div>
+        <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+      </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+      <section class="goleadores" id="goleadores">
+        <div class="goleadores">
+          <h1>Goleadores</h1>
+          <div class="tabla-goleadores">
+            <div class="encabezado">
+              <span>Jugador</span>
+              <span>Equipo</span>
+              <span>Goles</span>
+            </div>
+
+            <div class="goleador">
+              <span>1. Chansi</span>
+              <span class="equipo">Dabeiba</span>
+              <span class="goles">8</span>
+            </div>
+            <div class="goleador">
+              <span>2. Frangel H</span>
+              <span class="equipo">Armenia</span>
+              <span class="goles">7</span>
+            </div>
+            <div class="goleador">
+              <span>3. Cucharo</span>
+              <span class="equipo">Camparrucia</span>
+              <span class="goles">6</span>
+            </div>
+            <div class="goleador">
+              <span>4. Roberto B</span>
+              <span class="equipo">Armenia</span>
+              <span class="goles">5</span>
+            </div>
+            <div class="goleador">
+              <span>5. Maragojo</span>
+              <span class="equipo">Betania</span>
+              <span class="goles">4</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <img src="img/wave.svg" alt="división" class="wave wave_bottom" />
+
+    <!-- Equipos-->
+
+    <section class="equipos" id="equipos">
+      <h1>Equipos de Fútbol</h1>
+
+      <div class="mi-carousel">
+        <div class="mi-carousel-inner" id="miCarouselInner">
+          <div class="mi-carousel-item active">
+            <img
+              src="./imgsFutbol/armenia.jpeg"
+              alt="Equipo 1"
+            />
+            <div class="mi-carousel-title">ARMENIA</div>
+          </div>
+          <div class="mi-carousel-item">
+            <img
+              src="https://via.placeholder.com/800x400?text=Equipo+2"
+              alt="Equipo 2"
+            />
+            <div class="mi-carousel-title">Equipo 2</div>
+          </div>
+          <div class="mi-carousel-item">
+            <img
+              src="https://via.placeholder.com/800x400?text=Equipo+3"
+              alt="Equipo 3"
+            />
+            <div class="mi-carousel-title">Equipo 3</div>
+          </div>
+          <div class="mi-carousel-item">
+            <img
+              src="https://via.placeholder.com/800x400?text=Equipo+4"
+              alt="Equipo 4"
+            />
+            <div class="mi-carousel-title">Equipo 4</div>
+          </div>
+          <div class="mi-carousel-item">
+            <img
+              src="https://via.placeholder.com/800x400?text=Equipo+5"
+              alt="Equipo 5"
+            />
+            <div class="mi-carousel-title">Equipo 5</div>
+          </div>
+          <div class="mi-carousel-item">
+            <img
+              src="https://via.placeholder.com/800x400?text=Equipo+6"
+              alt="Equipo 6"
+            />
+            <div class="mi-carousel-title">Equipo 6</div>
+          </div>
+          <div class="mi-carousel-item">
+            <img
+              src="https://via.placeholder.com/800x400?text=Equipo+7"
+              alt="Equipo 7"
+            />
+            <div class="mi-carousel-title">Equipo 7</div>
+          </div>
+          <div class="mi-carousel-item">
+            <img
+              src="https://via.placeholder.com/800x400?text=Equipo+8"
+              alt="Equipo 8"
+            />
+            <div class="mi-carousel-title">Equipo 8</div>
+          </div>
+          <div class="mi-carousel-item">
+            <img
+              src="https://via.placeholder.com/800x400?text=Equipo+9"
+              alt="Equipo 9"
+            />
+            <div class="mi-carousel-title">Equipo 9</div>
+          </div>
+        </div>
+        <div class="mi-controls">
+          <button class="mi-control-button" onclick="prevSlide()">
+            &#10094;
+          </button>
+          <button class="mi-control-button" onclick="nextSlide()">
+            &#10095;
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

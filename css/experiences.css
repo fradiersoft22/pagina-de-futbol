@@ -1,0 +1,135 @@
+.tabla-posiciones {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  width: 10%;
+}
+
+.tabla-posiciones {
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.equipo {
+  display: flex; /* Usamos flexbox para alinear los elementos */
+  align-items: center; /* Alinea verticalmente */
+}
+
+.numero {
+  font-weight: bold;
+  font-size: 18px; /* Ajusta el tamaño según sea necesario */
+  margin-right: 20px; /* Espacio entre el número y el nombre */
+}
+
+.nombre-equipo {
+  display: inline-block; /* Asegura que el nombre esté alineado correctamente */
+  margin-left: 10px;
+}
+
+
+
+
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+}
+
+.wave {
+  width: 100%;
+  position: relative;
+  top: 2px;
+}
+
+@media (min-width: 950px) {
+  .experiences-title {
+    font-size: 50px;
+    margin: 35px 0;
+  }
+
+  .experience-date {
+    font-size: 40px;
+  }
+
+  .experience-company {
+    font-size: 25px;
+  }
+
+  .experience-position {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .experience-description {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.3;
+  }
+
+  .experience {
+    padding: 0;
+  }
+
+  .experience_left {
+    text-align: right;
+  }
+
+  .experiences-grid {
+    display: grid;
+    grid-template-columns: auto 2px auto;
+    gap: 20px 70px;
+    padding: 70px;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+  .line {
+    background-color: var(--text-color-inverse);
+    position: relative;
+  }
+
+  .line::before,
+  .line::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--text-color-inverse);
+    border-radius: 50%;
+
+    position: absolute;
+    top: -20px;
+    left: -9px;
+  }
+
+  .line::after {
+    top: 100%;
+    z-index: 1;
+  }
+}
