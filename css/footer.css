@@ -1,0 +1,49 @@
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: #16a085;
+    text-decoration: underline;
+}
+.social-icons {
+    margin: 10px 0;
+}
+.social-icons img {
+    width: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.creator {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #bdc3c7;
+}
+@media (max-width: 600px) {
+    footer {
+        padding: 15px;
+    }
+    .social-icons img {
+        width: 25px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+}
